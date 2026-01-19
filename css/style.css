@@ -234,3 +234,18 @@ body {
   font-size: 13px;
   font-weight: 300;
 }
+@media (max-width: 991px) {
+  .hero {
+    height: calc(100vh - 70px);
+    padding-top: 70px;
+  }
+}
+
+.navbar {
+  z-index: 1050;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+}

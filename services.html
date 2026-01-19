@@ -14,16 +14,60 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
   <div class="container">
-    <a class="navbar-brand text-warning fw-bold" href="index.html">HALİL NET</a>
-    <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
-      <li class="nav-item"><a class="nav-link active" href="#">Hizmetler</a></li>
-      <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
-    </ul>
+
+    <a class="navbar-brand text-warning fw-bold" href="index.html">
+      HALİL NET
+    </a>
+
+    <!-- HAMBURGER BUTON -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- KAPANIP AÇILAN MENÜ -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link"
+             href="index.html"
+             data-bs-toggle="collapse"
+             data-bs-target="#mainNavbar">
+            Ana Sayfa
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active"
+             href="#"
+             data-bs-toggle="collapse"
+             data-bs-target="#mainNavbar">
+            Hizmetler
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link"
+             href="contact.html"
+             data-bs-toggle="collapse"
+             data-bs-target="#mainNavbar">
+            İletişim
+          </a>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </nav>
+
 
 <!-- Sayfa Başlığı -->
 <section class="page-header">
