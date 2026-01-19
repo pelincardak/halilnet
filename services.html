@@ -1,127 +1,76 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<title>Hizmetler | Halil Net</title>
-<link rel="icon" type="image/png" href="assets/img/usticon.jpg">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Hizmetler | Halil Net</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/img/usticon.jpg">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+<div class="page-wrapper">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container">
+    <a class="navbar-brand text-warning fw-bold" href="index.html">HALİL NET</a>
 
-    <a class="navbar-brand text-warning fw-bold" href="index.html">
-      HALİL NET
-    </a>
-
-    <!-- HAMBURGER BUTON -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#mainNavbar"
-      aria-controls="mainNavbar"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- KAPANIP AÇILAN MENÜ -->
     <div class="collapse navbar-collapse" id="mainNavbar">
       <ul class="navbar-nav ms-auto text-center">
-        <li class="nav-item">
-          <a class="nav-link"
-             href="index.html"
-             data-bs-toggle="collapse"
-             data-bs-target="#mainNavbar">
-            Ana Sayfa
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link active"
-             href="#"
-             data-bs-toggle="collapse"
-             data-bs-target="#mainNavbar">
-            Hizmetler
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link"
-             href="contact.html"
-             data-bs-toggle="collapse"
-             data-bs-target="#mainNavbar">
-            İletişim
-          </a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link active" href="services.html">Hizmetler</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
       </ul>
     </div>
-
   </div>
 </nav>
 
-
-<!-- Sayfa Başlığı -->
 <section class="page-header">
   <h2>Hizmetlerimiz</h2>
-  <p>İhtiyacınıza uygun, hızlı ve güvenilir çözümler</p>
+  <p>Hızlı, güvenilir ve kaliteli çözümler</p>
 </section>
 
-<!-- Hizmetler -->
-<section class="py-5 services-section">
+<section class="py-5">
   <div class="container">
-
     <div class="row g-4">
 
-      <div class="col-md-6">
-        <div class="service-detail">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
           <i class="bi bi-wifi"></i>
-          <h5>Yüksek Hızlı İnternet</h5>
-          <p>
-            Stabil bağlantı, düşük ping ve kesintisiz internet deneyimi
-            ile işlerinizi ve oyun keyfinizi yarıda bırakmaz.
-          </p>
+          <h6>Hızlı İnternet</h6>
+          <p>Düşük ping ve stabil bağlantı</p>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="service-detail">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
           <i class="bi bi-controller"></i>
-          <h5>Oyun Bilgisayarları</h5>
-          <p>
-            Güncel oyunlar için optimize edilmiş,
-            yüksek performanslı ve bakımlı sistemler.
-          </p>
+          <h6>Oyun Bilgisayarları</h6>
+          <p>Yüksek performanslı sistemler</p>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="service-detail">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
           <i class="bi bi-printer"></i>
-          <h5>Çıktı & Tarama</h5>
-          <p>
-            Renkli ve siyah-beyaz belgeler için
-            hızlı, temiz ve kaliteli çıktı hizmeti.
-          </p>
+          <h6>Çıktı & Tarama</h6>
+          <p>Hızlı ve kaliteli baskı</p>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="service-detail">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
           <i class="bi bi-usb"></i>
-          <h5>Dosya & Telefon Aktarımı</h5>
-          <p>
-            USB, telefon ve e-posta üzerinden
-            dosyalarınızı güvenli şekilde aktarırız.
-          </p>
+          <h6>Dosya Aktarımı</h6>
+          <p>USB & telefon desteği</p>
         </div>
       </div>
 
@@ -129,57 +78,17 @@
   </div>
 </section>
 
-<!-- Neden Biz -->
-<section class="why-us">
+<footer class="footer">
   <div class="container text-center">
-
-    <h3>Neden Halil Net?</h3>
-    <p class="why-subtitle">
-      Bizi tercih edenlerin ortak noktası: memnuniyet
+    <h6 class="text-warning mb-2">HALİL NET</h6>
+    <p>Manavgat / Antalya</p>
+    <p class="mb-0">
+      © 2026 · Site Tasarımı: <strong>Pelin Çardak</strong>
     </p>
-
-    <div class="row mt-4">
-
-      <div class="col-md-4 why-item">
-        <span class="check">✔</span>
-        <p>Hızlı ve güvenilir altyapı</p>
-      </div>
-
-      <div class="col-md-4 why-item">
-        <span class="check">✔</span>
-        <p>Temiz ve konforlu ortam</p>
-      </div>
-
-      <div class="col-md-4 why-item">
-        <span class="check">✔</span>
-        <p>Uygun fiyatlı hizmet</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<footer class="footer-clean">
-  <div class="container">
-
-    <div class="footer-brand">
-      <h4>HALİL NET</h4>
-      <p>İnternet Kafe & Oyun Alanı</p>
-    </div>
-
-    <div class="footer-line"></div>
-
-    <div class="footer-info">
-      <span>© 2026 Halil Net Internet Cafe. Tüm hakları saklıdır.</span>
-      <span class="dev">
-        Site Tasarımı:  <strong>Pelin Çardak</strong>
-      </span>
-    </div>
-
   </div>
 </footer>
 
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
